@@ -50,7 +50,7 @@ python3 -m http.server 8000
 进入 Settings → Pages，Source 选择 main 分支，/(root) 文件夹。
 Go to Settings → Pages, set Source to main branch, /(root) folder.
 访问网站 / Visit Site
-等待 1-2 分钟后，访问 https://r3-0-9.github.io/quick-English/。
+等待 1-2 分钟后，访问 https://r3-0-9.github.io/quick-English/ 。
 Wait 1-2 minutes, then visit https://r3-0-9.github.io/quick-English/.
 📝 自定义内容 / Customization
 你可以轻松扩展网站内容，只需修改 js/app.js 中的数据数组：
