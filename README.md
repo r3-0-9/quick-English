@@ -10,12 +10,12 @@ Table
 📱 响应式设计 / Responsive	完美适配手机、平板和电脑。Fully responsive for mobile, tablet, and desktop.
 🎨 精美动画 / Smooth Animations	卡片翻转、淡入淡出等流畅过渡效果。Smooth transitions like card flipping and fade-in effects.
 🚀 在线演示 / Live Demo
-👉 https://r3-0-9.github.io/quick-learning-English/
+👉 https://r3-0-9.github.io/quick-English/
 (请将 r3-0-9 替换为你的 GitHub 用户名)
 (Replace r3-0-9 with your actual GitHub username)
 📁 项目结构 / Project Structure
 plain
-quick-english/
+quick-English/
 ├── index.html          # 主页面 / Main page
 ├── css/
 │   └── style.css       # 样式文件 / Stylesheet
@@ -31,7 +31,7 @@ Vanilla JavaScript — 无依赖，原生实现 / Zero dependencies, pure native
 No build tools required — just open in your browser.
 bash
 # 1. 克隆仓库 / Clone the repository
-git clone https://github.com/r3-0-9/quick-learning-English.git
+git clone https://github.com/r3-0-9/quick-English.git
 
 # 2. 进入项目目录 / Enter project directory
 cd quick-english
@@ -50,8 +50,8 @@ python3 -m http.server 8000
 进入 Settings → Pages，Source 选择 main 分支，/(root) 文件夹。
 Go to Settings → Pages, set Source to main branch, /(root) folder.
 访问网站 / Visit Site
-等待 1-2 分钟后，访问 https://r3-0-9.github.io/quick-learning-English/。
-Wait 1-2 minutes, then visit https://r3-0-9.github.io/quick-learning-English/.
+等待 1-2 分钟后，访问 https://r3-0-9.github.io/quick-English/。
+Wait 1-2 minutes, then visit https://r3-0-9.github.io/quick-English/.
 📝 自定义内容 / Customization
 你可以轻松扩展网站内容，只需修改 js/app.js 中的数据数组：
 You can easily expand the content by modifying the data arrays in js/app.js:
