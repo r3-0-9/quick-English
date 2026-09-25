@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>⚡ Quick English - 快速学英语</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
@@ -112,52 +112,7 @@ Click cards to flip and learn roots.
 
     </div>
 
-    <script src="js/app.js"></script>
-<script>
-        // 词根数据集
-        const rootsData = [
-    { root: "port", meaning: "to carry", example: "transport" },
-    { root: "spect", meaning: "to look", example: "inspect" },
-    { root: "dict", meaning: "to say", example: "predict" },
-    { root: "struct", meaning: "to build", example: "construct" }
-];
-
-const container = document.getElementById('rootContainer');
-
-rootsData.forEach(item => {
-
-    const card = document.createElement('div');
-
-    card.className = 'card';
-
-    card.innerHTML = `
-        <div class="card-inner">
-
-            <div class="card-front">
-                <div class="root">${item.root}</div>
-            </div>
-
-            <div class="card-back">
-                <div class="root">
-                    Meaning: ${item.meaning}
-                </div>
-
-                <div class="example">
-                    Ex: ${item.example}
-                </div>
-            </div>
-
-        </div>
-    `;
-
-    card.addEventListener('click', () => {
-        card.classList.toggle('flipped');
-    });
-
-    container.appendChild(card);
-
-})
-</script src="js/app.js"></script>
+<script src="app.js"></script>
 
 </body>
 </html>
